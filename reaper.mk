@@ -3,9 +3,6 @@ $(call inherit-product, device/lge/d852/full_d852.mk)
 # Inherit some common Reaper stuff.
 $(call inherit-product, vendor/reaper/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/reaper/config/nfc_enhanced.mk)
-
 PRODUCT_NAME := reaper_d852
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
